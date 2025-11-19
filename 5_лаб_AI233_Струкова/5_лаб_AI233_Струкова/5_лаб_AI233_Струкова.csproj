@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-_5_лаб_AI233_Струкова-2a1c10d6-c329-416d-80c9-dcdb83ef6d53</UserSecretsId>
+        <RootNamespace>_5_лаб_AI233_Струкова</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.21"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.21"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.21"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.21"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.21"/>
+    </ItemGroup>
+
+</Project>
